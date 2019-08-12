@@ -6,9 +6,6 @@
  Hitachi HD44780 driver. There are many of them out there, and you
  can usually tell them by the 16-pin interface.
 
- This sketch prints "Hello World!" to the LCD
- and shows the time.
-
   The circuit:
  * LCD RS pin to digital pin 12
  * LCD Enable pin to digital pin 11
