@@ -4,7 +4,7 @@ dht DHT;
 void setup() {
 Serial.begin(9600);
 Serial.println("Temperature & Humidity Sensor"); }
-void loop() { // READ DATA
+void loop() { // READ DATA from sensor
 int chk = DHT.read11(DHT11_PIN);
 Serial.println(" Humidity " );
 Serial.println(DHT.humidity, 1);
